@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(81, 122, 197);
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+button {
+    font-size: xx-large;
+    background-color: unset;
+    padding: 1rem;
+    margin: 10px 20px;
+    transition: 100 ms ease-in-out;
+};
+button:hover {
+    transform: scale((1.1));
+
+}
+#like:hover, #likeH {
+    background-color:rgb(37, 159, 104);
+}
+#dislike:hover, #dislikeH {
+    background-color: chocolate;
+}
+.notvisible{
+    display: none;
+}
+#photoContainer, #photoContainer img{
+    height: 500px;
+}
+#spinner {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-top: 180px;
+    animation: spin 2s linear infinite;
+}
+.containerHund{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    border-radius: 50px;
+    max-width: 70vw;
+    margin:10px 0;
+}
+.containerHund img{
+    height: 100px;
+}
+  
